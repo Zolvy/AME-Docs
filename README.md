@@ -9,3 +9,12 @@ coverY: 0
 
 # Apple Music Electron
 
+
+
+{% tabs %}
+{% tab title="First Tab" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+{% endtab %}
+{% endtabs %}
