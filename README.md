@@ -12,7 +12,7 @@ coverY: 0
 
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Building" %}
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
 {% endcontent-ref %}
