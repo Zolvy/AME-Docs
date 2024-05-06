@@ -20,7 +20,7 @@ Run `git` and you should see a pop-up like this, click install.
 
 Open a command prompt window in the directory where you want Git to clone, and enter the following command.
 
-`git clone <https://github.com/Zolvy/AppleMusicElectron`>
+`git clone https://github.com/Zolvy/AppleMusicElectron`
 
 
 
@@ -28,7 +28,7 @@ Open a command prompt window in the directory where you want Git to clone, and e
 
 Feel free to use any node package manager [pnpm](https://pnpm.io/), [Yarn](https://yarnpkg.com/), [npm](https://nodejs.org), [Bun](https://bun.sh), etc, run this command depending on your package manager.
 
-chmod u+x ./utils/install.sh && ./utils/install.sh -bun
+`pnpm install`
 
 
 
@@ -36,7 +36,7 @@ chmod u+x ./utils/install.sh && ./utils/install.sh -bun
 
 Same command just a different file
 
-chmod u+x ./utils/compile.sh
+`quasar build -m electron`
 
 ## Installing AME
 

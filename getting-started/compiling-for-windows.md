@@ -16,19 +16,19 @@ Cloning the repository
 
 Open a command prompt window in the directory where you want Git to clone, and enter the following command.
 
-`git clone https://github.com/zolvy/AppleMusicElectron -b windows_dev`
+`git clone https://github.com/zolvy/AppleMusicElectron`
 
 ## **Installing Dependencies**
 
 Feel free to use any node package manager [pnpm](https://pnpm.io/), [Yarn](https://yarnpkg.com/), [npm](https://nodejs.org), [Bun](https://bun.sh), etc, run this command depending on your package manager.
 
-`./utils/install.bat -bun`
+`pnpm install`
 
 ## **Compiling AME**
 
 Same command just a different file
 
-`./utils/compile.bat`
+`pnpm quasar build -m electron`
 
 ## Installing AME
 
